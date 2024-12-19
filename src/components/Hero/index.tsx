@@ -41,14 +41,14 @@ const Hero = () => {
                       target="_blank"
                       className="group flex items-center gap-4 rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark"
                     >
-                      <img
+                      <Image
                         src="https://res.cloudinary.com/dmzp6notl/image/upload/v1734493898/document-favorite-svgrepo-com-2_zgnxti.svg"
                         alt="GitHub logo"
                         width="24"
                         height="24"
                         className="fill-current transition duration-300 ease-in-out group-hover:hidden"
                       />
-                      <img
+                      <Image
                         src="https://res.cloudinary.com/dmzp6notl/image/upload/v1734493845/document-favorite-svgrepo-com_da5czg.svg"
                         alt="GitHub hover logo"
                         width="24"

@@ -19,7 +19,7 @@ const CallToAction = () => {
                   href="/"
                   className="inline-block rounded-md border border-transparent bg-white px-7 py-3 text-base font-medium text-[#1D7DD9] transition hover:bg-[#005AAF]"
                 >
-                  Let's Start
+                  Let&apos Start
                 </Link>
               </div>
             </div>

@@ -24,7 +24,7 @@ const About = () => {
                   <br /> <br />
                   With powerful features like dynamic pricing, secure payments,
                   and in-depth analytics, Bargainwale ensures you stay ahead in
-                  a competitive market. Whether you're scaling your business or
+                  a competitive market. Whether you&apore scaling your business or
                   optimizing existing workflows, Bargainwale provides the tools
                   and insights you need to succeed—all in one user-friendly
                   platform.
