@@ -7,25 +7,37 @@ const teamData: TeamType[] = [
     id: 1,
     name: "Devansh Saxena",
     designation: "Founder and Chief Executive Officer (CEO)",
-    image: "/images/team/devansh.png"
+    image: "/images/team/devansh.png",
+    facebookLink: "/#",
+    twitterLink: "/#",
+    instagramLink: "/#",
   },
   {
     id: 2,
     name: "Rishvant Singh",
     designation: "Chief Technology Officer (CTO) & Principal Developer",
-    image: "/images/team/rishvant.png"
+    image: "/images/team/rishvant.png",
+    facebookLink: "/#",
+    twitterLink: "/#",
+    instagramLink: "/#",
   },
   {
     id: 3,
     name: "Raghav Khurana",
     designation: "Chief Product and Backend Officer (CPBO)",
-    image: "/images/team/raghav.png"
+    image: "/images/team/raghav.png",
+    facebookLink: "/#",
+    twitterLink: "/#",
+    instagramLink: "/#",
   },
   {
     id: 4,
     name: "Amrutansh Jha",
     designation: "Chief DevOps and Process Officer (CDPO)",
-    image: "/images/team/amru.png"
+    image: "/images/team/amru.png",
+    facebookLink: "/#",
+    twitterLink: "/#",
+    instagramLink: "/#",
   },
 ];
 
