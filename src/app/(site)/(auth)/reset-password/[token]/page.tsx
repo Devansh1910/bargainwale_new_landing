@@ -7,11 +7,19 @@ export const metadata: Metadata = {
   title: "Reset Password | Bargainwale",
 };
 
-const ResetPasswordPage = ({ params }: { params: { token: string } }) => {
+type Props = {
+  params: {
+    token: string;
+  };
+};
+
+const ResetPasswordPage = async ({ params }: Props) => {
+  const { token } = params; // No need to await here for destructuring
+
   return (
     <>
       <Breadcrumb pageName="Reset Password" />
-      <ResetPassword token={params.token} />
+      <ResetPassword token={token} />
     </>
   );
 };
