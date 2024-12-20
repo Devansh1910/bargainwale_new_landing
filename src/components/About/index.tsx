@@ -30,10 +30,11 @@ const About = () => {
                   tools and insights you need to succeed—all in one
                   user-friendly platform.
                 </p>
-                <Link href="/#">
-                  <a className="inline-flex items-center justify-center rounded-md bg-[#1C7DD9] px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-[#1C7DD9]/90">
-                    Know More
-                  </a>
+                <Link
+                  href="/#"
+                  className="inline-flex items-center justify-center rounded-md bg-[#1C7DD9] px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-[#1C7DD9]/90"
+                >
+                  Know More
                 </Link>
               </div>
             </div>
