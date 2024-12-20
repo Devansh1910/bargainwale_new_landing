@@ -125,15 +125,16 @@ const SignUp = () => {
                 <MagicLink />
               )}
 
-              <p className="text-body-secondary mb-4 text-base">
-                By creating an account you are agree with our{" "}
-                <a href="/#" className="text-[#1C7DD9] hover:underline">
+              <p className="text-sm text-body-color">
+                By using our service, you agree to the{" "}
+                <Link href="/#" className="text-[#1C7DD9] hover:underline">
                   Privacy
-                </a>{" "}
+                </Link>{" "}
                 and{" "}
-                <a href="/#" className="text-[#1C7DD9] hover:underline">
+                <Link href="/#" className="text-[#1C7DD9] hover:underline">
                   Policy
-                </a>
+                </Link>
+                .
               </p>
 
               <p className="text-body-secondary text-base">

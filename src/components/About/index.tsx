@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -24,17 +25,16 @@ const About = () => {
                   <br /> <br />
                   With powerful features like dynamic pricing, secure payments,
                   and in-depth analytics, Bargainwale ensures you stay ahead in
-                  a competitive market. Whether you&apore scaling your business or
-                  optimizing existing workflows, Bargainwale provides the tools
-                  and insights you need to succeed—all in one user-friendly
-                  platform.
+                  a competitive market. Whether you&apore scaling your business
+                  or optimizing existing workflows, Bargainwale provides the
+                  tools and insights you need to succeed—all in one
+                  user-friendly platform.
                 </p>
-                <a
-                  href="/#"
-                  className="inline-flex items-center justify-center rounded-md bg-[#1C7DD9] px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-[#1C7DD9]/90"
-                >
-                  Know More
-                </a>
+                <Link href="/#">
+                  <a className="inline-flex items-center justify-center rounded-md bg-[#1C7DD9] px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-[#1C7DD9]/90">
+                    Know More
+                  </a>
+                </Link>
               </div>
             </div>
 
@@ -42,7 +42,7 @@ const About = () => {
               <div className="-mx-2 flex flex-wrap sm:-mx-4 lg:-mx-2 xl:-mx-4">
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div
-                    className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] `}
+                    className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]`}
                   >
                     <Image
                       src="/images/about/tester.png"
@@ -59,7 +59,7 @@ const About = () => {
                       src="/images/about/webmockup.png"
                       alt="about image"
                       fill
-                      className="h-full w-full object-fit object-center"
+                      className="object-fit h-full w-full object-center"
                     />
                   </div>
 
