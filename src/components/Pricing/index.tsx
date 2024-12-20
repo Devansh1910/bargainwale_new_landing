@@ -1,7 +1,27 @@
 "use client";
 import SectionTitle from "../Common/SectionTitle";
 import PricingBox from "./PricingBox";
-import { pricingData } from "@/stripe/pricingData";
+
+const pricingData = [
+  {
+    id: "free-plan", // Updated to string
+    title: "Free Plan",
+    price: "$0",
+    unit_amount: 0,
+    nickname: "Free",
+    offers: [],
+    features: ["Core features", "Basic support"],
+  },
+  {
+    id: "pro-plan", // Updated to string
+    title: "Pro Plan",
+    price: "$49/month",
+    unit_amount: 4900, // in cents, for example
+    nickname: "Pro",
+    offers: ["Discount for yearly billing"],
+    features: ["Unlimited tasks", "Enhanced security", "Premium features"],
+  },
+];
 
 const Pricing = () => {
   return (
@@ -22,7 +42,7 @@ const Pricing = () => {
         <div className="-mx-4 flex flex-wrap justify-center">
           {pricingData.map((product, i) => (
             <PricingBox key={i} product={product} />
-          ))}     
+          ))}
         </div>
       </div>
     </section>
