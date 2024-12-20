@@ -9,7 +9,10 @@ const pricingData = [
     price: "$9/month",
     unit_amount: 900, // in cents
     nickname: "Starter",
-    offers: ["Basic customer support"],
+    offers: ["Basic customer support","Access to 100 products",
+      "Basic analytics",
+      "Standard listing visibility",
+      "Email notifications"],
     features: [
       "Access to 100 products",
       "Basic analytics",
@@ -23,7 +26,11 @@ const pricingData = [
     price: "$29/month",
     unit_amount: 2900, // in cents
     nickname: "Business",
-    offers: ["Priority customer support", "10% discount on yearly billing"],
+    offers: ["Priority customer support", "10% discount on yearly billing","Access to 1,000 products",
+      "Advanced analytics and insights",
+      "Enhanced listing visibility",
+      "Integration with popular marketplaces",
+      "SMS and email notifications"],
     features: [
       "Access to 1,000 products",
       "Advanced analytics and insights",
@@ -38,7 +45,12 @@ const pricingData = [
     price: "$99/month",
     unit_amount: 9900, // in cents
     nickname: "Enterprise",
-    offers: ["Dedicated account manager", "Custom pricing for bulk listings"],
+    offers: ["Dedicated account manager", "Custom pricing for bulk listings","Unlimited product listings",
+      "Premium analytics and reporting",
+      "Top-tier listing visibility",
+      "Dedicated API access",
+      "Custom branding options",
+      "24/7 priority support"],
     features: [
       "Unlimited product listings",
       "Premium analytics and reporting",
