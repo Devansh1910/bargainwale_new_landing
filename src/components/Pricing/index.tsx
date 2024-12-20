@@ -4,22 +4,49 @@ import PricingBox from "./PricingBox";
 
 const pricingData = [
   {
-    id: "free-plan", // Updated to string
-    title: "Free Plan",
-    price: "$0",
-    unit_amount: 0,
-    nickname: "Free",
-    offers: [],
-    features: ["Core features", "Basic support"],
+    id: "starter-plan",
+    title: "Starter Plan",
+    price: "$9/month",
+    unit_amount: 900, // in cents
+    nickname: "Starter",
+    offers: ["Basic customer support"],
+    features: [
+      "Access to 100 products",
+      "Basic analytics",
+      "Standard listing visibility",
+      "Email notifications",
+    ],
   },
   {
-    id: "pro-plan", // Updated to string
-    title: "Pro Plan",
-    price: "$49/month",
-    unit_amount: 4900, // in cents, for example
-    nickname: "Pro",
-    offers: ["Discount for yearly billing"],
-    features: ["Unlimited tasks", "Enhanced security", "Premium features"],
+    id: "business-plan",
+    title: "Business Plan",
+    price: "$29/month",
+    unit_amount: 2900, // in cents
+    nickname: "Business",
+    offers: ["Priority customer support", "10% discount on yearly billing"],
+    features: [
+      "Access to 1,000 products",
+      "Advanced analytics and insights",
+      "Enhanced listing visibility",
+      "Integration with popular marketplaces",
+      "SMS and email notifications",
+    ],
+  },
+  {
+    id: "enterprise-plan",
+    title: "Enterprise Plan",
+    price: "$99/month",
+    unit_amount: 9900, // in cents
+    nickname: "Enterprise",
+    offers: ["Dedicated account manager", "Custom pricing for bulk listings"],
+    features: [
+      "Unlimited product listings",
+      "Premium analytics and reporting",
+      "Top-tier listing visibility",
+      "Dedicated API access",
+      "Custom branding options",
+      "24/7 priority support",
+    ],
   },
 ];
 
@@ -34,7 +61,7 @@ const Pricing = () => {
           <SectionTitle
             subtitle="Pricing Table"
             title="Pricing"
-            paragraph="Enjoy the core features free forever! Upgrade now to unlock unlimited tasks, enhanced security, and access to exclusive premium features designed to elevate your experience."
+            paragraph="Choose the perfect plan to grow your business with Bargainwale! Unlock premium features, enhanced analytics, and dedicated support for your success."
             center
           />
         </div>
