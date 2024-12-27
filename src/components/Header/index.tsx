@@ -331,7 +331,7 @@ const Header = () => {
                     ) : (
                       <>
                         <Link
-                          href="https://accounts.bargainwale.com/sign-in"
+                          href="https://dashboard.bargainwale.com"
                           className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
@@ -339,7 +339,7 @@ const Header = () => {
                           Sign In
                         </Link>
                         <Link
-                          href="https://accounts.bargainwale.com/sign-in"
+                          href="https://dashboard.bargainwale.com"
                           className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
                             sticky
                               ? "bg-[#1C7DD9] hover:bg-[#1C7DD9]/90 dark:bg-white/10 dark:hover:bg-white/20"
