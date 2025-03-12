@@ -3,15 +3,14 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Contact Page | Bargainwale",
+  title: "Contact | Bargainwale",
   description: "This is contact page description",
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Contact Page" />
+      <Breadcrumb pageName="Contact" />
 
       <Contact />
     </>

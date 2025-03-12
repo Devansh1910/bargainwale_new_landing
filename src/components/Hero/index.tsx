@@ -35,7 +35,7 @@ const Hero = () => {
                       Get Started
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="https://github.com/nextjsTemplates/bargainwale"
                       target="_blank"
@@ -63,7 +63,7 @@ const Hero = () => {
                         content: url("https://res.cloudinary.com/dmzp6notl/image/upload/v1734493845/document-favorite-svgrepo-com_da5czg.svg");
                       }
                     `}</style>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

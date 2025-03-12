@@ -4,15 +4,14 @@ import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Pricing Page | Bargainwale",
+  title: "Pricing | Bargainwale",
   description: "This is pricing page description",
 };
 
 const PricingPage = () => {
   return (
     <>
-      <Breadcrumb pageName="Pricing Page" />
+      <Breadcrumb pageName="Pricing" />
       <Pricing />
       <Faq />
     </>
