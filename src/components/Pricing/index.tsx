@@ -7,7 +7,7 @@ const pricingData = [
     id: "basic-plan",
     title: "Basic Plan",
     price: "₹699/month",
-    unit_amount: 49900, // in paise
+    unit_amount: 69900, // in paise
     nickname: "Basic",
     offers: [
       "Email support",
@@ -27,7 +27,7 @@ const pricingData = [
     id: "growth-plan",
     title: "Growth Plan",
     price: "₹1,999/month",
-    unit_amount: 149900, // in paise
+    unit_amount: 199900, // in paise
     nickname: "Growth",
     offers: [
       "Priority customer support",
@@ -49,7 +49,7 @@ const pricingData = [
     id: "pro-plan",
     title: "Pro Plan",
     price: "₹5,299/month",
-    unit_amount: 499900, // in paise
+    unit_amount: 529900, // in paise
     nickname: "Pro",
     offers: [
       "Dedicated account manager",
