@@ -6,7 +6,7 @@ const pricingData = [
   {
     id: "basic-plan",
     title: "Basic Plan",
-    price: "₹499/month",
+    price: "₹699/month",
     unit_amount: 49900, // in paise
     nickname: "Basic",
     offers: [
@@ -26,7 +26,7 @@ const pricingData = [
   {
     id: "growth-plan",
     title: "Growth Plan",
-    price: "₹1,499/month",
+    price: "₹1,999/month",
     unit_amount: 149900, // in paise
     nickname: "Growth",
     offers: [
@@ -48,7 +48,7 @@ const pricingData = [
   {
     id: "pro-plan",
     title: "Pro Plan",
-    price: "₹4,999/month",
+    price: "₹5,299/month",
     unit_amount: 499900, // in paise
     nickname: "Pro",
     offers: [
